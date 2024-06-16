@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/frametop"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/blue"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="20px">
+
+        <Button
+            android:id="@+id/fragment1btn"
+            android:layout_width="350px"
+            android:layout_height="150px"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:text="Cars"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60px"
+            android:layout_marginStart="30px"></Button>
+        <Button
+            android:id="@+id/addbtn"
+            android:layout_width="150px"
+            android:layout_height="170px"
+            android:drawableLeft="@drawable/baseline_add_24"
+            android:paddingRight="10px"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60px"
+            android:layout_marginStart="60px"></Button>
+
+        <Button
+            android:id="@+id/fragment2btn"
+            android:layout_width="350px"
+            android:layout_height="150px"
+            android:backgroundTint="@color/black"
+            android:text="Bikes"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="60px"
+            android:layout_marginStart="60px"></Button>
+
+
+    </LinearLayout>
+</LinearLayout>
